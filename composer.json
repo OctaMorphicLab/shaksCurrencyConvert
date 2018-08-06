@@ -1,0 +1,24 @@
+{
+    "name": "shakeelcse09/shaks-currency",
+    "description": "Currency Conversion Library for multiple country",
+    "keywords": ["Currency", "Conversion", "php"],
+    "license": "osl-3.0",
+    "authors": [
+        {
+            "name": "MD Alauddin Al-Amin",
+            "email": "shakeelcse09@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=5.5"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "shakeelcse09\\ShaksCurrency\\": "src/"
+        }
+    }
+}
