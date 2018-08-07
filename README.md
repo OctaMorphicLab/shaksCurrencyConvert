@@ -23,7 +23,7 @@ Usage
 
 In the Controller, use this trait
 
-    use shakeelcse09/ShaksCurrency/ShaksCurrency;  // returns "United States"
+    use shakeelcse09/ShaksCurrency/ShaksCurrency;
     
 in the method 
 
