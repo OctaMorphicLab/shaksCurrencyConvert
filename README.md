@@ -1,15 +1,38 @@
-Composer Library Template
+Shaks Testing Composer Library
 =========================
 
-If you are trying to create a new PHP Composer library, whether it will be going to submitted to packagist.org or just in your Github account, this template of files will surely help you make the process a lot easier and faster.
-
-Features
---------
-
-* PSR-4 autoloading compliant structure
-* Unit-Testing with PHPUnit
-* Comprehensive Guides and tutorial
-* Easy to use to any framework or even a plain php file
+hello muntaha, this is for you testing my composer library. 
 
 
-I encourage that you put more information on this readme file instead of leaving it as is. See [How to make a README file](http://www.darwinbiler.com/designing-and-making-the-readme-file-for-your-github-repository/) for more info.
+Requirements
+============
+
+* PHP >= 5.5
+
+Installation
+============
+
+    composer require shakeelcse09/shaks-currency:dev-master
+
+Add the autoload in index.php if not inclded
+
+	include_once 'vendor/autoload.php';
+
+Usage
+=====
+
+In the Controller, use this trait
+
+    use shakeelcse09/ShaksCurrency/ShaksCurrency;  // returns "United States"
+    
+in the method 
+
+    $shaks = new ShaksCurrency();
+    echo $shaks->greetings('muntaha');  // returns "hello muntaha"
+
+
+
+Credits
+=======
+
+* Logicians Ponir about pip discussion

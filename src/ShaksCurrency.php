@@ -23,7 +23,7 @@ class ShaksCurrency{
   *
   * @return string
   */
-   public function method1($param1){
-			return "Hello World";
+   public function greetings($name){
+			return "Hello $name !!";
    }
 }
